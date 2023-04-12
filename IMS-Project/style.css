@@ -1,361 +1,389 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 
 * {
-    font-family: 'DM Sans';
-    padding: 0 auto;
-    margin: 0 auto;
+  font-family: "DM Sans";
+  padding: 0 auto;
+  margin: 0 auto;
 }
 
 /* Index Section */
 
 .main-frame {
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25); 
-    width: 80%;
-    border-radius: 25px;
-    margin: 2% 10% 3% 10%;
-    position: absolute;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  border-radius: 25px;
+  margin: 2% 10% 3% 10%;
+  position: absolute;
 }
 
 .left-frame {
-    width: 50%;
-    float: left;
-    background-color: #F7FAFC;
+  width: 50%;
+  float: left;
+  background-color: #f7fafc;
 }
 
 .left-frame > .logo {
-    height: 25px;
-    margin: 50px;
+  height: 25px;
+  margin: 50px;
 }
 
 .left-frame > h1 {
-    box-sizing: border-box;
-    position: absolute;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 46px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    top: 22%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  top: 22%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 
 .left-frame > .left-image {
-    margin-top: -80px;
-    margin-bottom: 40px;
-    margin-left: 35px;
-    margin-right: 35px;
-    height: 550px;
+  margin-top: -80px;
+  margin-bottom: 40px;
+  margin-left: 35px;
+  margin-right: 35px;
+  height: 550px;
 }
 
 .left-frame > p {
-    box-sizing: border-box;
-    position: absolute;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    margin: -12% 15% 0 13%;
-    line-height: 46px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  margin: -12% 15% 0 13%;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .right-frame {
-    width: 50%;
-    height: 130%;
-    float: right;
-    background-color: white;
+  width: 50%;
+  height: 130%;
+  float: right;
+  background-color: white;
 }
 
 .right-frame > .signin-frame {
-    margin-top: 70px;
-    margin-bottom: 73px;
-    width: 400px;
-    height: 500px;
-    background: #F6F6F6;
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+  margin-top: 70px;
+  margin-bottom: 73px;
+  width: 400px;
+  height: 500px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
 }
 
 .right-frame > .signin-frame > h1 {
-    box-sizing: border-box;
-    text-align: center;
-    padding-top: 60px;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 39px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
 }
 
 .right-frame > .signin-frame > p {
-    box-sizing: border-box;
-    text-align: center;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    margin-top: 8px;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  margin-top: 8px;
 }
 
 .right-frame > .signin-frame > form {
-    margin-top: 40px;
-    box-sizing: border-box;
-    display: grid;
+  margin-top: 40px;
+  box-sizing: border-box;
+  display: grid;
 }
 
-.right-frame > .signin-frame > form > input[type=number] {
-    width: 260px;
-    height: 55px;
-    padding: 0 10px 0 10px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #cccccc;
+.right-frame > .signin-frame > form > input[type="number"] {
+  width: 260px;
+  height: 55px;
+  padding: 0 10px 0 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #cccccc;
 }
 
-.right-frame > .signin-frame > form > input[type=password] {
-    width: 260px;
-    height: 55px;
-    padding: 0 10px 0 10px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #cccccc;
+.right-frame > .signin-frame > form > input[type="password"] {
+  width: 260px;
+  height: 55px;
+  padding: 0 10px 0 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #cccccc;
 }
 
 input::placeholder {
-    color: #858585;
+  color: #858585;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 #inputPassword {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .forgot-password {
-    box-sizing: border-box;
-    width: 280px;
-    text-align: right;
+  box-sizing: border-box;
+  width: 280px;
+  text-align: right;
 }
 
 #forgotPassword {
-    text-decoration: none;
-    color: #858585;
-    font-size: 12px;
-    margin-top: 5px;
-    
+  text-decoration: none;
+  color: #858585;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 #forgotPassword:hover {
-    color: rgb(34, 34, 34);
+  color: rgb(34, 34, 34);
 }
 
-.right-frame > .signin-frame > form > input[type=submit] {
-    box-sizing: border-box;
-    margin-top: 45px;
-    width: 280px;
-    height: 55px;
-    border-style: none;
-    border-radius: 10px;
-    background-color: #4d4c8b;
-    font-size: 15px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
+.right-frame > .signin-frame > form > input[type="submit"] {
+  box-sizing: border-box;
+  margin-top: 45px;
+  width: 280px;
+  height: 55px;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #4d4c8b;
+  font-size: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.right-frame > .signin-frame > form > input[type=submit]:hover {
-    background-color: #353473;
+.right-frame > .signin-frame > form > input[type="submit"]:hover {
+  background-color: #353473;
 }
 
 /* Reset Section */
 
 .reset-frame {
-    margin-top: 90px;
-    margin-bottom: 73px;
-    width: 430px;
-    height: 520px;
-    background: #F6F6F6;
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 25px;
+  margin-top: 90px;
+  margin-bottom: 73px;
+  width: 430px;
+  height: 520px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
 }
 
 .reset-frame > img {
-    box-sizing: border-box;
-    margin-top: 50px;
-    height: 20px;
-    width: 100%;
+  box-sizing: border-box;
+  margin-top: 50px;
+  height: 20px;
+  width: 100%;
 }
 
 .reset-frame > h1 {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: center;
-    margin-top: 7px;
-    font-size: 25px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  margin-top: 7px;
+  font-size: 25px;
 }
 
 .reset-frame > p {
-    box-sizing: border-box;
-    width: 100%;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 13px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
 }
 
 .reset-frame > form {
-    width: 100%;
-    margin-top: 40px;
-    display: grid;
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
 }
 
-.reset-frame > form > input[type=number] {
-    width: 260px;
-    height: 55px;
-    padding: 0 10px 0 10px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #cccccc;
+.reset-frame > form > input[type="number"] {
+  width: 260px;
+  height: 55px;
+  padding: 0 10px 0 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #cccccc;
 }
 
 .reset-frame > form > #inputRecoveryCode {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .reset-frame > form > .help {
-    margin-top: 10px;
-    width: 270px;
-    display: flex;
+  margin-top: 10px;
+  width: 270px;
+  display: flex;
 }
 
 .reset-frame > form > .help > p {
-    padding-left: 10px;
-    color: #787878;
-    font-size: 10px;
+  padding-left: 10px;
+  color: #787878;
+  font-size: 10px;
 }
 
-.reset-frame > form > input[type=submit] {
-    margin-top: 60px;
-    width: 280px;
-    height: 55px;
-    padding: 0 10px 0 10px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #cccccc;
-    cursor: pointer;
-    font-weight: bold;
+.reset-frame > form > input[type="submit"] {
+  margin-top: 60px;
+  width: 280px;
+  height: 55px;
+  padding: 0 10px 0 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #cccccc;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.reset-frame > form > input[type=submit]:hover {
-    background-color: #d1d1d1;
+.reset-frame > form > input[type="submit"]:hover {
+  background-color: #d1d1d1;
 }
 
 /* New Password Section */
 
 .reset-frame > #psd_logo {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
-.reset-frame > form > input[type=password] {
-    width: 260px;
-    height: 55px;
-    padding: 0 10px 0 10px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: #cccccc;
+.reset-frame > form > input[type="password"] {
+  width: 260px;
+  height: 55px;
+  padding: 0 10px 0 10px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #cccccc;
 }
 
 #inputRetypePassword {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /* Dashboard Section */
 .container {
-    display: flex;
-    flex-direction: row;
-    background-color: #EBF0F4;
+  display: flex;
+  flex-direction: row;
+  background-color: #ebf0f4;
 }
-  
+
 .sidebar {
-    width: 15%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #FFFFFF;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
 }
 
 .sidebar > img {
-    box-sizing: border-box;
-    width: 100%;
-    height: 30px;
-    margin-top: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  margin-top: 35px;
 }
-  
+
 .main-content {
-    width: 75%;
-    height: 200vh;
-    overflow: auto;
-    margin-left: 17%;
-    margin-top: 20px;
+  width: 75%;
+  height: 200vh;
+  overflow: auto;
+  margin-left: 17%;
+  margin-top: 20px;
 }
 
 .links {
-    box-sizing: border-box;
-    width: 100%;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .links > ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
 }
 
 .links > ul > li {
-    margin: 0 auto; /* Removes the default margin */
-    padding: 0 auto; /* Removes the default padding */
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.links > ul > li > img {
-    margin: 10px 0 10px 28px;
+  width: 100%;
 }
 
 .links > ul > li > a {
-    margin: 10px 0 10px 25px;
-    text-decoration: none;
-    color: black;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.links > ul > li > a.active {
+  background-color: #ebf0f4;
+}
+
+.links > ul > li > a > img {
+  margin: 0 25px 0 10px;
+}
+
+.links > ul > li > a > p {
+  margin: 0;
 }
 
 .profile-section {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 5px;
-  }
-
-.profile-section > .Profile{
-    float: left;
-    margin-left: 25px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 5px;
 }
 
-.profile-section > a{
-    float: left;
-    margin: 10px;
-    text-decoration: none;
-    color: black;
+.profile-section > .Profile {
+  float: left;
+  margin-left: 25px;
 }
-.profile-section > .Logout{
-    float: right;
-    margin-right: 25px ;
-    margin-top: 12px;
-    
 
+.profile-section > .user-info {
+  float: left;
+  margin: 0 0 15px 18px;
+  text-decoration: none;
+  width: 65%;
+  color: black;
+}
+
+.profile-section > .user-info > img {
+  float: left;
+  height: 45px;
+}
+
+.profile-section > .user-info > #username {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+  margin-left: 13px;
+  font-size: 13px;
+}
+
+.profile-section > .user-info > #role {
+  font-size: 13px;
+  color: #626161;
+  float: left;
+  margin-left: 13px;
+}
+
+.profile-section > .logout {
+  float: right;
+  width: 10%;
+  margin-right: 25px;
+  margin-top: 13px;
 }
